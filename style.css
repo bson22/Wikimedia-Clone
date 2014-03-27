@@ -1,0 +1,30 @@
+
+#intro{
+	margin-right: 275px;
+	margin-left: 275px;
+}
+#welcome{
+	text-align: right;
+	margin-right: 350px;
+}
+.table{
+	display: table;
+	width: auto;
+	background-color: rgba (0, 0, 0, 1);
+	text-align: center;
+	margin: 0 auto;
+}
+.row{
+	display: table-row;
+	width: auto;
+	clear: both;
+}
+.cell {
+	float: left;
+	display: table-column;
+	width: 200px;
+	margin: 20px;
+}
+#footer{
+	text-align: center;
+}
