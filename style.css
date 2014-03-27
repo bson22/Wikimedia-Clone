@@ -1,18 +1,39 @@
+html{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+body{
+	font-size: 62.5%; /* 10px = 1em */
+}
+.wrap{
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 2em;
+}
 
 #intro{
-	margin-right: 275px;
-	margin-left: 275px;
+	margin-left: 13%;
+	margin-right: 13%;
 }
 #welcome{
 	text-align: right;
-	margin-right: 350px;
+	margin-right: 13%;
 }
+
+a{
+	text-decoration: none;
+}
+
 .table{
 	display: table;
 	width: auto;
 	background-color: rgba (0, 0, 0, 1);
 	text-align: center;
 	margin: 0 auto;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
 }
 .row{
 	display: table-row;
@@ -27,4 +48,16 @@
 }
 #footer{
 	text-align: center;
+	font-size: .7em;
+	
+}
+p{
+	display: block;
+}
+.nowrap{
+	white-space: nowrap;
+}
+.bottom a{
+	text-align: center;
+	margin: 0 10px;
 }
